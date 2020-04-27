@@ -1,2 +1,5 @@
 # conditional_coconet
-This is based on Magenta/coconet geep learning music generating model. This one is in tensorflow.js and conditioned on a given chord.erate music based on a given melody/chords.
+This model is based on Magenta/coconet deep learning music generating model. 
+It is written in tensorflow.js and a conditional model (hence the name conditional_coconet). It takes chords as inputs and generates melodies. 
+To use this model, you need to clone magenta library from here: https://github.com/tensorflow/magenta.
+Then, you need to place "conditional_coconet" dir inside "magenta-js/music/src/" folder.
